@@ -26,7 +26,7 @@ namespace EscrevendoCelular.ConsoleApp.Tela
                 Console.ResetColor();
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Digite 1 para visualizar o SMS");
+                Console.WriteLine("Digite 1 para visualizar a conversão");
                 Console.ResetColor();
 
                 Console.ForegroundColor = ConsoleColor.Red;
