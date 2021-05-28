@@ -32,6 +32,7 @@ namespace EscrevendoCelular.ConsoleApp.Tela
             {
                 Console.WriteLine("Digite uma letra para converter em números: ");
                 fraseSms = Convert.ToString(Console.ReadLine().ToUpper());
+                TamanhoMSG();
             }
 
             catch
@@ -121,6 +122,12 @@ namespace EscrevendoCelular.ConsoleApp.Tela
                 Console.WriteLine("_");
 
             Console.ReadLine();
+        }
+
+        private void TamanhoMSG()
+        {
+            if (fraseSms.Length > 255)
+                throw new ArgumentOutOfRangeException("A mensagem deve ter no máximo 255 caracteres!");
         }
 
     }
