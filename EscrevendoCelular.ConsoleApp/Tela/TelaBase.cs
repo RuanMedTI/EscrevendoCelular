@@ -60,9 +60,8 @@ namespace EscrevendoCelular.ConsoleApp.Tela
             return "";
         }
 
-        public virtual void VisualizarFrase()
+        public virtual void VisualizarSMS()
         {
-
         }
 
     }

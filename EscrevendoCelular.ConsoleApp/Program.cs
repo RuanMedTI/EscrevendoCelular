@@ -35,7 +35,7 @@ namespace EscrevendoCelular.ConsoleApp
                 Console.Clear();
 
                 if (opcao == "1")
-                    tela.VisualizarFrase();
+                    tela.VisualizarSMS();
 
                 Console.Clear();
             }

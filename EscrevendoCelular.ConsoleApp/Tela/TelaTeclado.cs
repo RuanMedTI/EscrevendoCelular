@@ -25,7 +25,7 @@ namespace EscrevendoCelular.ConsoleApp.Tela
             return opcao;
         }
 
-        override public void VisualizarFrase()
+        override public void VisualizarSMS()
         {
 
             try
@@ -125,4 +125,3 @@ namespace EscrevendoCelular.ConsoleApp.Tela
 
     }
 }
-
