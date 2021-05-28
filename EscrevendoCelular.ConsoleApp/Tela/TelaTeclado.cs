@@ -12,7 +12,7 @@ namespace EscrevendoCelular.ConsoleApp.Tela
         {
             Console.Clear();
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Digite 1 para visualizar a conversão da letra");
             Console.ResetColor();
 

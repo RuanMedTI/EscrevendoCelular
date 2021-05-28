@@ -20,12 +20,12 @@ namespace EscrevendoCelular.ConsoleApp.Tela
             {
                 Console.Clear();
 
-                Console.ForegroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Escrevendo no Celular 1.1");
                 Console.WriteLine("--------------------------------");
                 Console.ResetColor();
 
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Digite 1 para visualizar a conversão");
                 Console.ResetColor();
 
