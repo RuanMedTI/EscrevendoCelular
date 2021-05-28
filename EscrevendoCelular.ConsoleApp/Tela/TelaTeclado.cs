@@ -27,7 +27,6 @@ namespace EscrevendoCelular.ConsoleApp.Tela
 
         override public void VisualizarSMS()
         {
-
             try
             {
                 Console.WriteLine("Digite uma letra para converter em números: ");
